@@ -1,0 +1,81 @@
+*{
+    margin:6px;
+    padding: 6px;
+
+}
+h1{
+    font: bold 50px Courier;
+}
+h2{
+    font: bold 30px Courier;
+}
+header, section, footer, aside, nav, article, hgroup{
+display: block;
+}
+/* */
+/*nice neat descrtipive ids no duplicates # tells the browser what comes 
+next is an id  */
+
+/*markup language a way of using tags to markup content HyperText = text
+that is connected to other text */
+
+/*#foo {} will style the single element declared with an attribute id="foo"
+.foo {} will style all elements with an attribute class="foo" (you can have multiple classes assigned 
+to an element too, just separate them with spaces, e.g. class="foo bar") */
+
+body{
+    width: 100%;
+    display: -webkit-box;
+    background: #dcddd8; /*rgb(97, 250, 225);*/
+	-webkit-box-pack: center;
+}
+
+#big_wrapper{
+max-width: 1000px;
+margin: 20px 0px;
+background: #dcddd8
+display:-webkit-flex;#
+-webkit-box-orient: vertical;
+-webkit-box-flex:1;
+}
+
+#top_header{
+    background:#dcddd8 
+    border:4px solid black;
+    border:4px solid black;
+    padding:20px;
+}
+#top_menu{
+    border: 1px solid black;
+    background:#47F77;
+    color:black;
+}
+#top_menu li{
+display: inline-block;
+list-style: none;
+padding: 5px;
+font: bold 14px Courier;
+}
+#main_div{
+    display: -webkit-box;
+    -webkit-box-orient:horizontal;
+}
+#main_section{
+    border: 1px solid #9e3b33
+    -webkit-box-flex: 1;
+    margin:20px;
+	/*margin: auto;*/
+    padding: 20px;
+}
+#form_section{
+    border: 1px solid #9e3b33
+    -webkit-box-flex: 1;
+    margin:20px;
+	/*margin: auto;*/
+    padding: 20px;
+}
+
+#whatyoucandowithCSS
+{
+position: absolute; fixed;
+}
